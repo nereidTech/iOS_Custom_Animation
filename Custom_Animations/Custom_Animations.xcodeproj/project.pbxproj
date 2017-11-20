@@ -15,6 +15,7 @@
 		DE138F861FC2396A00927C99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE138F851FC2396A00927C99 /* main.m */; };
 		DE138F901FC2396A00927C99 /* Custom_AnimationsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE138F8F1FC2396A00927C99 /* Custom_AnimationsTests.m */; };
 		DE138F9B1FC2396A00927C99 /* Custom_AnimationsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE138F9A1FC2396A00927C99 /* Custom_AnimationsUITests.m */; };
+		DE138FAB1FC23CAE00927C99 /* CACollectionViewCustomSrollAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = DE138FAA1FC23CAE00927C99 /* CACollectionViewCustomSrollAnimation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		DE138F961FC2396A00927C99 /* Custom_AnimationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Custom_AnimationsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE138F9A1FC2396A00927C99 /* Custom_AnimationsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Custom_AnimationsUITests.m; sourceTree = "<group>"; };
 		DE138F9C1FC2396A00927C99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE138FA91FC23CAE00927C99 /* CACollectionViewCustomSrollAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CACollectionViewCustomSrollAnimation.h; path = CACollectionViewCustomScroll/CACollectionViewCustomSrollAnimation.h; sourceTree = "<group>"; };
+		DE138FAA1FC23CAE00927C99 /* CACollectionViewCustomSrollAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CACollectionViewCustomSrollAnimation.m; path = CACollectionViewCustomScroll/CACollectionViewCustomSrollAnimation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		DE138F751FC2396A00927C99 /* Custom_Animations */ = {
 			isa = PBXGroup;
 			children = (
+				DE138FA81FC23C3700927C99 /* CustomAnimationCore */,
 				DE138F761FC2396A00927C99 /* AppDelegate.h */,
 				DE138F771FC2396A00927C99 /* AppDelegate.m */,
 				DE138F791FC2396A00927C99 /* ViewController.h */,
@@ -130,6 +134,15 @@
 				DE138F9C1FC2396A00927C99 /* Info.plist */,
 			);
 			path = Custom_AnimationsUITests;
+			sourceTree = "<group>";
+		};
+		DE138FA81FC23C3700927C99 /* CustomAnimationCore */ = {
+			isa = PBXGroup;
+			children = (
+				DE138FA91FC23CAE00927C99 /* CACollectionViewCustomSrollAnimation.h */,
+				DE138FAA1FC23CAE00927C99 /* CACollectionViewCustomSrollAnimation.m */,
+			);
+			path = CustomAnimationCore;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,6 +281,7 @@
 				DE138F7B1FC2396A00927C99 /* ViewController.m in Sources */,
 				DE138F861FC2396A00927C99 /* main.m in Sources */,
 				DE138F781FC2396A00927C99 /* AppDelegate.m in Sources */,
+				DE138FAB1FC23CAE00927C99 /* CACollectionViewCustomSrollAnimation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
